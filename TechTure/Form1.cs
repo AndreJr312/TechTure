@@ -23,7 +23,12 @@ namespace TechTure
             menuPrincipal1.BringToFront();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btnCLientes_Click(object sender, EventArgs e)
+        {
+            infosCliente1.BringToFront();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

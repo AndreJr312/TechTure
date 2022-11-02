@@ -17,6 +17,5 @@ namespace TechTure
             InitializeComponent();
         }
 
-
     }
 }

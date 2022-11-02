@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace TechTure
 {
-    public partial class infosCliente : UserControl
+    public partial class telaEquipe : UserControl
     {
-        public infosCliente()
+        public telaEquipe()
         {
             InitializeComponent();
         }
-      
     }
 }

@@ -46,7 +46,12 @@ namespace TechTure
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.printPreviewControl1 = new System.Windows.Forms.PrintPreviewControl();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.verPDF = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.formWebBrowser = new System.Windows.Forms.WebBrowser();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -187,7 +192,7 @@ namespace TechTure
             // 
             this.textBox7.Location = new System.Drawing.Point(46, 427);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(656, 22);
+            this.textBox7.Size = new System.Drawing.Size(298, 22);
             this.textBox7.TabIndex = 15;
             // 
             // label9
@@ -200,18 +205,82 @@ namespace TechTure
             this.label9.TabIndex = 16;
             this.label9.Text = "PLANTA DA RESIDÊNCIA";
             // 
-            // printPreviewControl1
+            // label10
             // 
-            this.printPreviewControl1.Location = new System.Drawing.Point(46, 532);
-            this.printPreviewControl1.Name = "printPreviewControl1";
-            this.printPreviewControl1.Size = new System.Drawing.Size(854, 200);
-            this.printPreviewControl1.TabIndex = 17;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(400, 227);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(89, 23);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Cidade:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(495, 230);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(405, 22);
+            this.textBox8.TabIndex = 19;
+            // 
+            // verPDF
+            // 
+            this.verPDF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.verPDF.FlatAppearance.BorderSize = 0;
+            this.verPDF.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.verPDF.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.verPDF.ForeColor = System.Drawing.Color.White;
+            this.verPDF.Location = new System.Drawing.Point(46, 693);
+            this.verPDF.Name = "verPDF";
+            this.verPDF.Size = new System.Drawing.Size(131, 37);
+            this.verPDF.TabIndex = 20;
+            this.verPDF.Text = "Visualizar";
+            this.verPDF.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(695, 418);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(205, 37);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "REFERÊNCIAS";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // formWebBrowser
+            // 
+            this.formWebBrowser.Location = new System.Drawing.Point(46, 519);
+            this.formWebBrowser.MinimumSize = new System.Drawing.Size(20, 20);
+            this.formWebBrowser.Name = "formWebBrowser";
+            this.formWebBrowser.Size = new System.Drawing.Size(854, 168);
+            this.formWebBrowser.TabIndex = 22;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(431, 418);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(205, 37);
+            this.button3.TabIndex = 23;
+            this.button3.Text = "BRIEFING";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // infosCliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.printPreviewControl1);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.formWebBrowser);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.verPDF);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -256,6 +325,11 @@ namespace TechTure
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PrintPreviewControl printPreviewControl1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button verPDF;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.WebBrowser formWebBrowser;
+        private System.Windows.Forms.Button button3;
     }
 }
