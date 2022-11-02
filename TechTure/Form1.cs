@@ -15,6 +15,17 @@ namespace TechTure
         public MenuPrincipall()
         {
             InitializeComponent();
+            telaInicial1.BringToFront();
+        }
+
+        private void btnProjetos_Click(object sender, EventArgs e)
+        {
+            menuPrincipal1.BringToFront();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
