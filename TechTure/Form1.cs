@@ -42,5 +42,10 @@ namespace TechTure
         {
             telaInicial1.BringToFront();
         }
+
+        private void btnContatos_Click(object sender, EventArgs e)
+        {
+            telaFornecedores1.BringToFront();
+        }
     }
 }
