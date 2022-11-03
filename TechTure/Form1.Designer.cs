@@ -35,7 +35,7 @@ namespace TechTure
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnOpcoes = new System.Windows.Forms.Button();
-            this.btnEquipe = new System.Windows.Forms.Button();
+            this.btnTarefas = new System.Windows.Forms.Button();
             this.btnContatos = new System.Windows.Forms.Button();
             this.btnServicos = new System.Windows.Forms.Button();
             this.btnCLientes = new System.Windows.Forms.Button();
@@ -44,6 +44,7 @@ namespace TechTure
             this.infosCliente1 = new TechTure.infosCliente();
             this.menuPrincipal1 = new TechTure.menuPrincipal();
             this.telaInicial1 = new TechTure.TelaInicial();
+            this.telaEquipe1 = new TechTure.telaEquipe();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +56,7 @@ namespace TechTure
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnOpcoes);
-            this.panel1.Controls.Add(this.btnEquipe);
+            this.panel1.Controls.Add(this.btnTarefas);
             this.panel1.Controls.Add(this.btnContatos);
             this.panel1.Controls.Add(this.btnServicos);
             this.panel1.Controls.Add(this.btnCLientes);
@@ -88,9 +89,9 @@ namespace TechTure
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(16, 685);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 21);
+            this.label2.Size = new System.Drawing.Size(145, 21);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Desenvolvido por";
+            this.label2.Text = "Usuário Logado:";
             // 
             // label1
             // 
@@ -99,9 +100,9 @@ namespace TechTure
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(145)))), ((int)(((byte)(77)))));
             this.label1.Location = new System.Drawing.Point(15, 711);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 28);
+            this.label1.Size = new System.Drawing.Size(83, 28);
             this.label1.TabIndex = 7;
-            this.label1.Text = "TechTure";
+            this.label1.Text = "André";
             // 
             // btnOpcoes
             // 
@@ -116,18 +117,19 @@ namespace TechTure
             this.btnOpcoes.Text = "OPÇÕES";
             this.btnOpcoes.UseVisualStyleBackColor = true;
             // 
-            // btnEquipe
+            // btnTarefas
             // 
-            this.btnEquipe.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEquipe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEquipe.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEquipe.ForeColor = System.Drawing.Color.White;
-            this.btnEquipe.Location = new System.Drawing.Point(0, 405);
-            this.btnEquipe.Name = "btnEquipe";
-            this.btnEquipe.Size = new System.Drawing.Size(250, 75);
-            this.btnEquipe.TabIndex = 5;
-            this.btnEquipe.Text = "EQUIPE";
-            this.btnEquipe.UseVisualStyleBackColor = true;
+            this.btnTarefas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTarefas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTarefas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTarefas.ForeColor = System.Drawing.Color.White;
+            this.btnTarefas.Location = new System.Drawing.Point(0, 405);
+            this.btnTarefas.Name = "btnTarefas";
+            this.btnTarefas.Size = new System.Drawing.Size(250, 75);
+            this.btnTarefas.TabIndex = 5;
+            this.btnTarefas.Text = "TAREFAS";
+            this.btnTarefas.UseVisualStyleBackColor = true;
+            this.btnTarefas.Click += new System.EventHandler(this.btnTarefas_Click);
             // 
             // btnContatos
             // 
@@ -219,10 +221,19 @@ namespace TechTure
             this.telaInicial1.Size = new System.Drawing.Size(932, 753);
             this.telaInicial1.TabIndex = 1;
             // 
+            // telaEquipe1
+            // 
+            this.telaEquipe1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.telaEquipe1.Location = new System.Drawing.Point(250, 0);
+            this.telaEquipe1.Name = "telaEquipe1";
+            this.telaEquipe1.Size = new System.Drawing.Size(932, 753);
+            this.telaEquipe1.TabIndex = 4;
+            // 
             // MenuPrincipall
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1182, 753);
+            this.Controls.Add(this.telaEquipe1);
             this.Controls.Add(this.infosCliente1);
             this.Controls.Add(this.menuPrincipal1);
             this.Controls.Add(this.telaInicial1);
@@ -243,7 +254,7 @@ namespace TechTure
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnOpcoes;
-        private System.Windows.Forms.Button btnEquipe;
+        private System.Windows.Forms.Button btnTarefas;
         private System.Windows.Forms.Button btnContatos;
         private System.Windows.Forms.Button btnServicos;
         private System.Windows.Forms.Button btnCLientes;
@@ -254,6 +265,7 @@ namespace TechTure
         private menuPrincipal menuPrincipal1;
         private System.Windows.Forms.Button btnSair;
         private infosCliente infosCliente1;
+        private telaEquipe telaEquipe1;
     }
 }
 

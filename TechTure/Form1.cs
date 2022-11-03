@@ -32,5 +32,10 @@ namespace TechTure
         {
             Application.Exit();
         }
+
+        private void btnTarefas_Click(object sender, EventArgs e)
+        {
+            telaEquipe1.BringToFront();
+        }
     }
 }

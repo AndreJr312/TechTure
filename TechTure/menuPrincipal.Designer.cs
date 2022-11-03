@@ -29,25 +29,27 @@ namespace TechTure
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gridCliente = new System.Windows.Forms.DataGridView();
-            this.nomeCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.responsavelCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataReuniao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prontoCliente = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.painelProjetos = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pesquisaCliente = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.btnVerCliente = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.nomeCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusCliente = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.responsavelCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataReuniao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prontoCliente = new System.Windows.Forms.DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridCliente)).BeginInit();
             this.painelProjetos.SuspendLayout();
             this.SuspendLayout();
             // 
             // gridCliente
             // 
+            this.gridCliente.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
             this.gridCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridCliente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nomeCliente,
@@ -61,43 +63,6 @@ namespace TechTure
             this.gridCliente.RowTemplate.Height = 24;
             this.gridCliente.Size = new System.Drawing.Size(840, 470);
             this.gridCliente.TabIndex = 0;
-            // 
-            // nomeCliente
-            // 
-            this.nomeCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.nomeCliente.HeaderText = "CLIENTE";
-            this.nomeCliente.MinimumWidth = 6;
-            this.nomeCliente.Name = "nomeCliente";
-            // 
-            // statusCliente
-            // 
-            this.statusCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.statusCliente.HeaderText = "ETAPA";
-            this.statusCliente.MinimumWidth = 6;
-            this.statusCliente.Name = "statusCliente";
-            // 
-            // responsavelCliente
-            // 
-            this.responsavelCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.responsavelCliente.HeaderText = "RESPONSÁVEL";
-            this.responsavelCliente.MinimumWidth = 6;
-            this.responsavelCliente.Name = "responsavelCliente";
-            // 
-            // dataReuniao
-            // 
-            this.dataReuniao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataReuniao.HeaderText = "PRÓX. REUNIÃO";
-            this.dataReuniao.MinimumWidth = 6;
-            this.dataReuniao.Name = "dataReuniao";
-            // 
-            // prontoCliente
-            // 
-            this.prontoCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.prontoCliente.HeaderText = "SITUAÇÃO";
-            this.prontoCliente.MinimumWidth = 6;
-            this.prontoCliente.Name = "prontoCliente";
-            this.prontoCliente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.prontoCliente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // painelProjetos
             // 
@@ -138,26 +103,6 @@ namespace TechTure
             this.pesquisaCliente.Size = new System.Drawing.Size(279, 22);
             this.pesquisaCliente.TabIndex = 3;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(615, 188);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 21);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "FILTRAR";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(806, 188);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 21);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "ORDENAR";
-            // 
             // btnVerCliente
             // 
             this.btnVerCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
@@ -172,12 +117,95 @@ namespace TechTure
             this.btnVerCliente.Text = "VISUALIZAR";
             this.btnVerCliente.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(558, 183);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 30);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "FILTRAR";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(50)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(759, 183);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(140, 30);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "ORDENAR";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // nomeCliente
+            // 
+            this.nomeCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nomeCliente.HeaderText = "CLIENTE";
+            this.nomeCliente.MinimumWidth = 6;
+            this.nomeCliente.Name = "nomeCliente";
+            // 
+            // statusCliente
+            // 
+            this.statusCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusCliente.DefaultCellStyle = dataGridViewCellStyle1;
+            this.statusCliente.HeaderText = "ETAPA";
+            this.statusCliente.Items.AddRange(new object[] {
+            "PLANTA-BAIXA",
+            "VOLUMETRIA",
+            "COMPATIBILIZAÇÃO",
+            "EXECUTIVO",
+            "INTERIORES",
+            "EXEC. INTERIORES",
+            "OBRA"});
+            this.statusCliente.MinimumWidth = 6;
+            this.statusCliente.Name = "statusCliente";
+            this.statusCliente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.statusCliente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // responsavelCliente
+            // 
+            this.responsavelCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.responsavelCliente.HeaderText = "RESPONSÁVEL";
+            this.responsavelCliente.MinimumWidth = 6;
+            this.responsavelCliente.Name = "responsavelCliente";
+            // 
+            // dataReuniao
+            // 
+            this.dataReuniao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataReuniao.HeaderText = "PRÓX. REUNIÃO";
+            this.dataReuniao.MinimumWidth = 6;
+            this.dataReuniao.Name = "dataReuniao";
+            // 
+            // prontoCliente
+            // 
+            this.prontoCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.prontoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.prontoCliente.HeaderText = "SITUAÇÃO";
+            this.prontoCliente.Items.AddRange(new object[] {
+            "CONCLUIDO",
+            "ANDAMENTO",
+            "PAUSADO"});
+            this.prontoCliente.MinimumWidth = 6;
+            this.prontoCliente.Name = "prontoCliente";
+            this.prontoCliente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.prontoCliente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
             // menuPrincipal
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnVerCliente);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.pesquisaCliente);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.painelProjetos);
@@ -199,13 +227,13 @@ namespace TechTure
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox pesquisaCliente;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnVerCliente;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridViewTextBoxColumn nomeCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn statusCliente;
+        private System.Windows.Forms.DataGridViewComboBoxColumn statusCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn responsavelCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataReuniao;
         private System.Windows.Forms.DataGridViewComboBoxColumn prontoCliente;
-        private System.Windows.Forms.Button btnVerCliente;
     }
 }
