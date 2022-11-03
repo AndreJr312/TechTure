@@ -41,10 +41,10 @@ namespace TechTure
             this.btnCLientes = new System.Windows.Forms.Button();
             this.btnProjetos = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.telaEquipe1 = new TechTure.telaEquipe();
             this.infosCliente1 = new TechTure.infosCliente();
             this.menuPrincipal1 = new TechTure.menuPrincipal();
             this.telaInicial1 = new TechTure.TelaInicial();
-            this.telaEquipe1 = new TechTure.telaEquipe();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +65,7 @@ namespace TechTure
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 753);
+            this.panel1.Size = new System.Drawing.Size(250, 723);
             this.panel1.TabIndex = 0;
             // 
             // btnSair
@@ -87,7 +87,7 @@ namespace TechTure
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(16, 685);
+            this.label2.Location = new System.Drawing.Point(12, 660);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 21);
             this.label2.TabIndex = 8;
@@ -98,7 +98,7 @@ namespace TechTure
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(145)))), ((int)(((byte)(77)))));
-            this.label1.Location = new System.Drawing.Point(15, 711);
+            this.label1.Location = new System.Drawing.Point(11, 686);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 28);
             this.label1.TabIndex = 7;
@@ -198,6 +198,15 @@ namespace TechTure
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // telaEquipe1
+            // 
+            this.telaEquipe1.AutoSize = true;
+            this.telaEquipe1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.telaEquipe1.Location = new System.Drawing.Point(250, 0);
+            this.telaEquipe1.Name = "telaEquipe1";
+            this.telaEquipe1.Size = new System.Drawing.Size(932, 723);
+            this.telaEquipe1.TabIndex = 4;
+            // 
             // infosCliente1
             // 
             this.infosCliente1.Location = new System.Drawing.Point(250, 0);
@@ -210,7 +219,7 @@ namespace TechTure
             this.menuPrincipal1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menuPrincipal1.Location = new System.Drawing.Point(250, 0);
             this.menuPrincipal1.Name = "menuPrincipal1";
-            this.menuPrincipal1.Size = new System.Drawing.Size(932, 753);
+            this.menuPrincipal1.Size = new System.Drawing.Size(932, 723);
             this.menuPrincipal1.TabIndex = 2;
             // 
             // telaInicial1
@@ -218,21 +227,13 @@ namespace TechTure
             this.telaInicial1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.telaInicial1.Location = new System.Drawing.Point(250, 0);
             this.telaInicial1.Name = "telaInicial1";
-            this.telaInicial1.Size = new System.Drawing.Size(932, 753);
+            this.telaInicial1.Size = new System.Drawing.Size(932, 723);
             this.telaInicial1.TabIndex = 1;
-            // 
-            // telaEquipe1
-            // 
-            this.telaEquipe1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.telaEquipe1.Location = new System.Drawing.Point(250, 0);
-            this.telaEquipe1.Name = "telaEquipe1";
-            this.telaEquipe1.Size = new System.Drawing.Size(932, 753);
-            this.telaEquipe1.TabIndex = 4;
             // 
             // MenuPrincipall
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1182, 753);
+            this.ClientSize = new System.Drawing.Size(1182, 723);
             this.Controls.Add(this.telaEquipe1);
             this.Controls.Add(this.infosCliente1);
             this.Controls.Add(this.menuPrincipal1);
@@ -246,6 +247,7 @@ namespace TechTure
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

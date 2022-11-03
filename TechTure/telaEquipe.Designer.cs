@@ -32,22 +32,22 @@ namespace TechTure
             this.painelEquipe = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.painelEquipe.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -90,144 +90,8 @@ namespace TechTure
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 105);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(316, 648);
+            this.panel1.Size = new System.Drawing.Size(316, 628);
             this.panel1.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.DarkRed;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(316, 50);
-            this.panel3.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel2.Controls.Add(this.richTextBox6);
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(633, 105);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(317, 648);
-            this.panel2.TabIndex = 4;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.ForestGreen;
-            this.panel6.Controls.Add(this.label4);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(317, 50);
-            this.panel6.TabIndex = 0;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel4.Controls.Add(this.richTextBox4);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Controls.Add(this.richTextBox5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(316, 105);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(317, 648);
-            this.panel4.TabIndex = 5;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(317, 50);
-            this.panel5.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(20, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 23);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "A FAZER";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(30, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(171, 23);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "EM ANDAMENTO";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(20, 12);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 23);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "CONCLUÍDO";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.EnableAutoDragDrop = true;
-            this.richTextBox1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(24, 84);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(268, 130);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "Tarefas";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.OliveDrab;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(24, 562);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 36);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "+ ADICIONAR";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Brown;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(24, 604);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(151, 36);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "- REMOVER";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.EnableAutoDragDrop = true;
-            this.richTextBox2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.Location = new System.Drawing.Point(24, 237);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(268, 130);
-            this.richTextBox2.TabIndex = 4;
-            this.richTextBox2.Text = "Tarefas";
             // 
             // richTextBox3
             // 
@@ -241,29 +105,87 @@ namespace TechTure
             this.richTextBox3.TabIndex = 5;
             this.richTextBox3.Text = "Tarefas";
             // 
-            // richTextBox4
+            // richTextBox2
             // 
-            this.richTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.EnableAutoDragDrop = true;
-            this.richTextBox4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox4.Location = new System.Drawing.Point(20, 237);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(268, 130);
-            this.richTextBox4.TabIndex = 7;
-            this.richTextBox4.Text = "Tarefas";
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.EnableAutoDragDrop = true;
+            this.richTextBox2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.Location = new System.Drawing.Point(24, 237);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(268, 130);
+            this.richTextBox2.TabIndex = 4;
+            this.richTextBox2.Text = "Tarefas";
             // 
-            // richTextBox5
+            // button2
             // 
-            this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox5.EnableAutoDragDrop = true;
-            this.richTextBox5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox5.Location = new System.Drawing.Point(20, 84);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(268, 130);
-            this.richTextBox5.TabIndex = 6;
-            this.richTextBox5.Text = "Tarefas";
+            this.button2.BackColor = System.Drawing.Color.Brown;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(24, 580);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(151, 36);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "- REMOVER";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.OliveDrab;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(24, 538);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(151, 36);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "+ ADICIONAR";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.EnableAutoDragDrop = true;
+            this.richTextBox1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(24, 84);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(268, 130);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "Tarefas";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.DarkRed;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(316, 50);
+            this.panel3.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(20, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 23);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "A FAZER";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.richTextBox6);
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(633, 105);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(317, 628);
+            this.panel2.TabIndex = 6;
             // 
             // richTextBox6
             // 
@@ -277,15 +199,94 @@ namespace TechTure
             this.richTextBox6.TabIndex = 8;
             this.richTextBox6.Text = "Tarefas";
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.ForestGreen;
+            this.panel6.Controls.Add(this.label4);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(317, 50);
+            this.panel6.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(20, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 23);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "CONCLUÍDO";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel4.Controls.Add(this.richTextBox4);
+            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.richTextBox5);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(316, 105);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(317, 628);
+            this.panel4.TabIndex = 5;
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox4.EnableAutoDragDrop = true;
+            this.richTextBox4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox4.Location = new System.Drawing.Point(20, 237);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(268, 130);
+            this.richTextBox4.TabIndex = 7;
+            this.richTextBox4.Text = "Tarefas";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(317, 50);
+            this.panel5.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(30, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(171, 23);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "EM ANDAMENTO";
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.EnableAutoDragDrop = true;
+            this.richTextBox5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox5.Location = new System.Drawing.Point(20, 84);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(268, 130);
+            this.richTextBox5.TabIndex = 6;
+            this.richTextBox5.Text = "Tarefas";
+            // 
             // telaEquipe
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.painelEquipe);
             this.Name = "telaEquipe";
-            this.Size = new System.Drawing.Size(950, 753);
+            this.Size = new System.Drawing.Size(950, 733);
             this.painelEquipe.ResumeLayout(false);
             this.painelEquipe.PerformLayout();
             this.panel1.ResumeLayout(false);

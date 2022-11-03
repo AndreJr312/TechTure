@@ -39,7 +39,7 @@ namespace TechTure
             this.pictureBox1.Image = global::TechTure.Properties.Resources.TechTure;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(950, 753);
+            this.pictureBox1.Size = new System.Drawing.Size(950, 733);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -49,7 +49,7 @@ namespace TechTure
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.pictureBox1);
             this.Name = "TelaInicial";
-            this.Size = new System.Drawing.Size(950, 753);
+            this.Size = new System.Drawing.Size(950, 733);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

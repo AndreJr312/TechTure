@@ -229,7 +229,7 @@ namespace TechTure
             this.verPDF.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.verPDF.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.verPDF.ForeColor = System.Drawing.Color.White;
-            this.verPDF.Location = new System.Drawing.Point(46, 693);
+            this.verPDF.Location = new System.Drawing.Point(46, 683);
             this.verPDF.Name = "verPDF";
             this.verPDF.Size = new System.Drawing.Size(131, 37);
             this.verPDF.TabIndex = 20;
@@ -255,7 +255,7 @@ namespace TechTure
             this.formWebBrowser.Location = new System.Drawing.Point(46, 519);
             this.formWebBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.formWebBrowser.Name = "formWebBrowser";
-            this.formWebBrowser.Size = new System.Drawing.Size(854, 168);
+            this.formWebBrowser.Size = new System.Drawing.Size(854, 149);
             this.formWebBrowser.TabIndex = 22;
             this.formWebBrowser.Url = new System.Uri("", System.UriKind.Relative);
             // 
@@ -299,7 +299,7 @@ namespace TechTure
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "infosCliente";
-            this.Size = new System.Drawing.Size(950, 753);
+            this.Size = new System.Drawing.Size(950, 733);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
