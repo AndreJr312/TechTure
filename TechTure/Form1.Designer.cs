@@ -141,7 +141,7 @@ namespace TechTure
             this.btnContatos.Name = "btnContatos";
             this.btnContatos.Size = new System.Drawing.Size(250, 75);
             this.btnContatos.TabIndex = 4;
-            this.btnContatos.Text = "CONTATOS";
+            this.btnContatos.Text = "FORNECEDORES";
             this.btnContatos.UseVisualStyleBackColor = true;
             // 
             // btnServicos
@@ -197,6 +197,7 @@ namespace TechTure
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // telaEquipe1
             // 
@@ -209,9 +210,10 @@ namespace TechTure
             // 
             // infosCliente1
             // 
+            this.infosCliente1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.infosCliente1.Location = new System.Drawing.Point(250, 0);
             this.infosCliente1.Name = "infosCliente1";
-            this.infosCliente1.Size = new System.Drawing.Size(950, 753);
+            this.infosCliente1.Size = new System.Drawing.Size(932, 723);
             this.infosCliente1.TabIndex = 3;
             // 
             // menuPrincipal1

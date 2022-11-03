@@ -37,5 +37,10 @@ namespace TechTure
         {
             telaEquipe1.BringToFront();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            telaInicial1.BringToFront();
+        }
     }
 }

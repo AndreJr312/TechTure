@@ -29,7 +29,7 @@ namespace TechTure
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gridCliente = new System.Windows.Forms.DataGridView();
             this.nomeCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusCliente = new System.Windows.Forms.DataGridViewComboBoxColumn();
@@ -57,11 +57,11 @@ namespace TechTure
             this.responsavelCliente,
             this.dataReuniao,
             this.prontoCliente});
-            this.gridCliente.Location = new System.Drawing.Point(59, 235);
+            this.gridCliente.Location = new System.Drawing.Point(59, 218);
             this.gridCliente.Name = "gridCliente";
             this.gridCliente.RowHeadersWidth = 51;
             this.gridCliente.RowTemplate.Height = 24;
-            this.gridCliente.Size = new System.Drawing.Size(840, 450);
+            this.gridCliente.Size = new System.Drawing.Size(840, 471);
             this.gridCliente.TabIndex = 0;
             // 
             // nomeCliente
@@ -74,9 +74,9 @@ namespace TechTure
             // statusCliente
             // 
             this.statusCliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusCliente.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusCliente.DefaultCellStyle = dataGridViewCellStyle2;
             this.statusCliente.HeaderText = "ETAPA";
             this.statusCliente.Items.AddRange(new object[] {
             "PLANTA-BAIXA",
@@ -134,7 +134,7 @@ namespace TechTure
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(383, 34);
+            this.label1.Location = new System.Drawing.Point(52, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 39);
             this.label1.TabIndex = 2;
@@ -144,7 +144,7 @@ namespace TechTure
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 163);
+            this.label2.Location = new System.Drawing.Point(56, 146);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 21);
             this.label2.TabIndex = 2;
@@ -153,7 +153,7 @@ namespace TechTure
             // pesquisaCliente
             // 
             this.pesquisaCliente.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pesquisaCliente.Location = new System.Drawing.Point(59, 187);
+            this.pesquisaCliente.Location = new System.Drawing.Point(59, 170);
             this.pesquisaCliente.Name = "pesquisaCliente";
             this.pesquisaCliente.Size = new System.Drawing.Size(279, 22);
             this.pesquisaCliente.TabIndex = 3;
@@ -165,7 +165,7 @@ namespace TechTure
             this.btnVerCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerCliente.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerCliente.ForeColor = System.Drawing.Color.White;
-            this.btnVerCliente.Location = new System.Drawing.Point(360, 183);
+            this.btnVerCliente.Location = new System.Drawing.Point(360, 166);
             this.btnVerCliente.Name = "btnVerCliente";
             this.btnVerCliente.Size = new System.Drawing.Size(140, 30);
             this.btnVerCliente.TabIndex = 7;
@@ -179,7 +179,7 @@ namespace TechTure
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(558, 183);
+            this.button1.Location = new System.Drawing.Point(558, 166);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 30);
             this.button1.TabIndex = 8;
@@ -193,7 +193,7 @@ namespace TechTure
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(759, 183);
+            this.button2.Location = new System.Drawing.Point(759, 166);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 30);
             this.button2.TabIndex = 9;
