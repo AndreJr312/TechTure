@@ -257,6 +257,7 @@ namespace TechTure
             this.formWebBrowser.Name = "formWebBrowser";
             this.formWebBrowser.Size = new System.Drawing.Size(854, 168);
             this.formWebBrowser.TabIndex = 22;
+            this.formWebBrowser.Url = new System.Uri("", System.UriKind.Relative);
             // 
             // button3
             // 
