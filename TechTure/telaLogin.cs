@@ -29,7 +29,7 @@ namespace TechTure
                 MessageBox.Show("Obrigatório preencher os campos Login e Senha", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
-            if (txtLogin.Text == "andre" && txtSenha.Text == "12345")
+            if (txtLogin.Text == "andre" && txtSenha.Text == "12345" || txtLogin.Text == "eduardo" && txtSenha.Text == "251099")
             {
                 MenuPrincipall menu = new MenuPrincipall();
                 menu.Show();
